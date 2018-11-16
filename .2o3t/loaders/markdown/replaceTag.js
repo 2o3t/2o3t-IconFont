@@ -35,6 +35,13 @@ module.exports = function($) {
 
     $('a').each((index, h) => {
         h.tagName = 'ot-link';
+        h.attribs.target = '_blank';
+        h.attribs.border = true;
+    });
+
+    // blockquote
+    $('blockquote').each((index, h) => {
+        h.tagName = 'ot-notice';
     });
 
     return $;

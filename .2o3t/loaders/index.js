@@ -21,10 +21,10 @@ const chainWebpack = config => {
 
     config.module
         .rule('OT-Colors')
-        .test(/.js$/i)
-        .include
-        .add(path.resolve(process.cwd(), './src/views'))
-        .end()
+        .test(/.color$/i)
+        // .include
+        // .add(path.resolve(process.cwd(), './src/views'))
+        // .end()
         .use()
         .loader(path.resolve(__dirname, './mainCss.js'))
         .end();

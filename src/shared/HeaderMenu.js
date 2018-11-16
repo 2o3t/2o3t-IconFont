@@ -8,7 +8,7 @@ export default [
     //     router: '/designs',
     // },
     {
-        name: '组件库',
+        name: '图标库',
         router: '/components',
     },
 ];

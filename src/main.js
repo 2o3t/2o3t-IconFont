@@ -21,17 +21,9 @@ Vue.use(OTUI, {
     // },
 });
 
-let OTUI_LIB = null;
-if (process.env.NODE_ENV === 'production') {
-    const pkg = require('../package.json');
-    require(`${pkg.name}/dist/styles.css`);
-    OTUI_LIB = require(`${pkg.name}`);
-} else {
-    OTUI_LIB = require('@libs').default;
+if (process.env.NODE_ENV !== 'production') {
     console.warn('In Development !!!');
 }
-
-Vue.use(OTUI_LIB);
 
 Vue.config.productionTip = false;
 

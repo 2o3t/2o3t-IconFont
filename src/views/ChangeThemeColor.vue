@@ -1,11 +1,22 @@
 <template>
-    <ot-color-picker :theme="$otTheme" round v-model="color" @change="changeColor"></ot-color-picker>
+    <ot-color-picker ot :theme="$otTheme" round v-model="color" @change="changeColor"></ot-color-picker>
 </template>
 
 <script>
-import MAIN_CSS from './CssColor.js';
+import MAIN_CSS from '2o3t-css-colors/public/2o3t-ui/main.color';
 const ID_NAME = '__custom_theme_color__';
-const DEFAULT_COLOR = '#207FF6';
+const CURRENT_COLOR_NAME = window.localStorage ? window.localStorage.getItem('ot-color') || 'default' : 'default';
+const OT_COLOR_POOLS = {
+    default: '#314659',
+    white: '#FFFFFF',
+    black: '#000000',
+    primary: '#207FF6',
+    success: '#37C385',
+    warning: '#FFCC00',
+    danger: '#FF5252',
+    info: '#36AEFB',
+};
+const DEFAULT_COLOR = OT_COLOR_POOLS[CURRENT_COLOR_NAME] || '#207FF6';
 export default {
     name: 'ui-change-theme-color',
     data() {
