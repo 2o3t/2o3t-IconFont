@@ -1,0 +1,82 @@
+{
+    "name": "2o3t-icon-font",
+    "version": "0.0.10",
+    "description": "[Library] 2O3T-Icon-Font",
+    "author": "zyao89 <zyao89@gmail.com>",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "build:libs": "sh ./bin/buildLibs.sh",
+        "deploy:libs": "npm run build:libs && npm publish",
+        "lint": "vue-cli-service lint",
+        "lint:libs": "vue-cli-service lint ./libs",
+        "deploy:auto": "sh ./.2o3t/bin/autoDeploy.sh",
+        "deploy": "sh ./bin/deploy.sh"
+    },
+    "license": "MIT",
+    "files": [
+        "dist/**/*"
+    ],
+    "dependencies": {
+        "2o3t-css-colors": "^0.0.9",
+        "2o3t-icon-font": "^0.0.10",
+        "2o3t-ui": "^0.0.40",
+        "highlight.js": "^9.13.1",
+        "lodash": "^4.17.11",
+        "moment": "^2.22.2",
+        "clipboard-polyfill": "^2.7.0",
+        "cheerio": "^1.0.0-rc.2",
+        "font-awesome": "^4.7.0",
+        "markdown-it": "^8.4.2"
+    },
+    "devDependencies": {
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-clean": "^0.4.0",
+        "gulp-iconfont": "^10.0.2",
+        "gulp-iconfont-css": "^2.3.0",
+        "@vue/cli-plugin-babel": "^3.0.4",
+        "@vue/cli-plugin-eslint": "^3.0.4",
+        "@vue/cli-service": "^3.0.4",
+        "autoprefixer": "^9.2.0",
+        "babel-core": "^6.26.3",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-plugin-syntax-jsx": "^6.18.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-plugin-transform-vue-jsx": "^3.7.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "cssnano": "^4.1.4",
+        "eslint-config-2o3t": "^1.1.1",
+        "eslint-loader": "^2.1.1",
+        "node-sass": "^4.9.3",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.5.17",
+        "vue-router": "^3.0.1",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "browser": true,
+            "node": true
+        },
+        "extends": [
+            "eslint-config-2o3t/vue"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
