@@ -5,15 +5,15 @@ export default [
     // },
     {
         name: '设计规范',
-        href: 'https://2o3t.github.io/2o3t-ui/#/designs',
+        href: '//2o3t.github.io/2o3t-ui/#/designs',
     },
     {
         name: '组件库',
-        href: 'https://2o3t.github.io/2o3t-ui/#/components',
+        href: '//2o3t.github.io/2o3t-ui/#/components',
     },
     {
         name: '主题配色',
-        href: 'https://2o3t.github.io/2o3t-ui/#/themes',
+        href: '//2o3t.github.io/2o3t-ui/#/themes',
     },
     {
         name: '图标库',
