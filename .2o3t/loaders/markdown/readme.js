@@ -19,9 +19,6 @@ module.exports = function(source) {
         lowerCaseTags: false,
     });
 
-    // 替换
-    replaceTag($);
-
     const config = {};
     config.LABEL = $('h1').first().text();
     config.DESC = $('h1').next('p').first()
@@ -54,6 +51,9 @@ module.exports = function(source) {
     }, {});
 
     config.COMPONENTS.__markdown = true;
+
+    // 替换
+    replaceTag($);
 
     // api
     const $h3 = $('h3');

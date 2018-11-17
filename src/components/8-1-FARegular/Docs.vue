@@ -17,7 +17,7 @@ export default {
     },
     computed: {
         icons() {
-            const files = require.context('../../../assets/ot-icons/', true, /\.svg$/i);
+            const files = require.context('../../../assets/fa-regular-icons/', true, /\.svg$/i);
             return files.keys().map(item => {
                 return item.replace(/(\.\/|\.svg)/g, '');
             });

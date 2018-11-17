@@ -8,7 +8,7 @@ autoBuildIndex([
 
 const customLoader = require('./.2o3t/loaders');
 
-const PRODUCTION_BASE_URL = '<!-- ##&PROJECT_NAME&## -->';
+const PRODUCTION_BASE_URL = '2o3t-IconFont';
 
 const vueConfig = {
     baseUrl: debug ? '/' : PRODUCTION_BASE_URL,

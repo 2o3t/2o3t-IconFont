@@ -17,10 +17,8 @@ const KEY_MAP = {
     1: 'Introduction',
     2: 'Basic',
     3: 'General',
-    4: 'Navigation',
-    5: 'Form',
-    6: 'Data Display',
-    7: 'Feedback',
+    8: 'Font Awesome',
+
 };
 export default {
     name: 'side-bar-pager',

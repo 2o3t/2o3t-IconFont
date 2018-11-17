@@ -8,7 +8,7 @@
                     <!-- <span slot="subtitle">OT-UI</span> -->
                 </ot-logo>
             </ot-link>
-            <ot-nav-item v-for="(item) in headers" :key="item.name" :to="item.router">{{item.name}}</ot-nav-item>
+            <ot-nav-item v-for="(item) in headers" :key="item.name" :to="item.router" :href="item.href">{{item.name}}</ot-nav-item>
             <ot-row :gutter="10" :class="$style.right" slot="right">
                 <ot-col :span="6">
                     <ChangeColor v-if="currentColor !== 'default'"  :theme="$otTheme"></ChangeColor>

@@ -3,22 +3,17 @@ import App from './App.vue';
 
 // import 'font-awesome/css/font-awesome.min.css';
 import '2o3t-icon-font/dist/font-ot.css';
+import '2o3t-icon-font/dist/font-fa-brands.css';
+import '2o3t-icon-font/dist/font-fa-regular.css';
+import '2o3t-icon-font/dist/font-fa-solid.css';
 
 import '2o3t-ui/dist/styles.css';
 import OTUI from '2o3t-ui';
 
-// const hljs = require('highlight.js');
-// const markdownit = require('markdown-it');
-// const cheerio = require('cheerio');
-// const clipboard = require('clipboard-polyfill');
+const color = window.localStorage && window.localStorage.getItem('ot-color') || null;
 Vue.use(OTUI, {
     global: true,
-    // plugins: {
-    //     markdownit,
-    //     cheerio,
-    //     clipboard,
-    //     hljs,
-    // },
+    color,
 });
 
 if (process.env.NODE_ENV !== 'production') {

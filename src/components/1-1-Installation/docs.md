@@ -1,6 +1,6 @@
 
 
-[![](https://img.shields.io/npm/v/2o3t-icon-font.svg?style=flat)](https://www.npmjs.com/package/2o3t-ui)
+[![](https://img.shields.io/npm/v/2o3t-icon-font.svg?style=flat)](https://www.npmjs.com/package/2o3t-icon-font)
 [![](https://img.shields.io/badge/UIKit-@2o3t.cn-red.svg)](http://uikit.2o3t.cn)
 [![](https://img.shields.io/npm/dt/2o3t-icon-font.svg)]()
 
