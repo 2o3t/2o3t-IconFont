@@ -1,8 +1,8 @@
 export default [
-    // {
-    //     name: '指南',
-    //     router: '/guide',
-    // },
+    {
+        name: '首页',
+        href: '//2o3t.github.io',
+    },
     {
         name: '设计规范',
         href: '//2o3t.github.io/2o3t-ui/#/designs',

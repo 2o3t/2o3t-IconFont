@@ -110,7 +110,7 @@ export default {
     width: 100%;
     height: 6em;
     background-color: rgba($color: #ffffff, $alpha: .75);
-    z-index: 10;
+    z-index: 100;
 
     &[theme='dark'] {
         background-color: rgba($color: #242424, $alpha: .75);
