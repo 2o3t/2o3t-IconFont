@@ -62,9 +62,9 @@
     cheerio "^1.0.0-rc.2"
     vue-js-modal "^1.3.26"
 
-"2o3t-ui@^0.0.58":
-  version "0.0.58"
-  resolved "https://registry.yarnpkg.com/2o3t-ui/-/2o3t-ui-0.0.58.tgz#c6208f1b22193f628af8aeefd35b08f5059e8232"
+"2o3t-ui@^0.0.59":
+  version "0.0.59"
+  resolved "https://registry.yarnpkg.com/2o3t-ui/-/2o3t-ui-0.0.59.tgz#4c87bc497786c576e9a4cabf3c8ab3cf7b4ba618"
   dependencies:
     "2o3t-css-colors" "^0.0.18"
     "2o3t-icon-font" "^0.0.12"

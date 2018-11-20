@@ -18,8 +18,7 @@
         "dist/**/*"
     ],
     "dependencies": {
-        "2o3t-icon-font": "^0.0.12",
-        "2o3t-ui": "^0.0.58",
+        "2o3t-ui": "^0.0.59",
         "lodash": "^4.17.11",
         "highlight.js": "^9.13.1",
         "moment": "^2.22.2",
