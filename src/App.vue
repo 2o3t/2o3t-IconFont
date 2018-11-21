@@ -37,7 +37,7 @@
     <ot-aside :class="$style.sidebar">
         <router-view :theme="$otTheme" name="sidebar"></router-view>
     </ot-aside>
-    <ot-main :class="$style.pager">
+    <ot-main :class="$style.main">
         <!-- <keep-alive> -->
         <router-view :theme="$otTheme" :class="$style.content"></router-view>
         <!-- </keep-alive> -->
@@ -128,7 +128,7 @@ export default {
     bottom: 0;
     z-index: 10;
 }
-.pager {
+.main {
     padding-left: 20em;
     padding-top: 6em;
     padding-bottom: 2em;
@@ -139,6 +139,22 @@ export default {
         height: 100%;
         overflow-x: hidden;
         overflow-y: auto;
+    }
+}
+
+.footer {
+    padding-left: 20em;
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        position: relative;
+        width: auto !important;
+        padding-right: 1em;
+    }
+
+    .main, .footer {
+        padding-left: 0;
     }
 }
 </style>

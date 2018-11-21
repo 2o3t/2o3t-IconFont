@@ -6,6 +6,10 @@
   version "0.0.18"
   resolved "https://registry.yarnpkg.com/2o3t-css-colors/-/2o3t-css-colors-0.0.18.tgz#e6079b6377c9a7d3f6d11cdced0a9e4423b2eb0c"
 
+"2o3t-css-colors@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/2o3t-css-colors/-/2o3t-css-colors-0.0.19.tgz#30043abb39ded5da7402afd621844bff42f52eed"
+
 "2o3t-css-colors@^0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/2o3t-css-colors/-/2o3t-css-colors-0.0.9.tgz#9002b905409803f3866fbd1b72239e3c66a6d9e4"
@@ -44,6 +48,20 @@
     markdown-it "^8.4.2"
     moment "^2.22.2"
 
+"2o3t-icon-font@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/2o3t-icon-font/-/2o3t-icon-font-0.0.15.tgz#d82a58d2338a1b198f9b4d5b6fa92090a835bac8"
+  dependencies:
+    "2o3t-css-colors" "^0.0.18"
+    "2o3t-ui" "^0.0.61"
+    cheerio "^1.0.0-rc.2"
+    clipboard-polyfill "^2.7.0"
+    font-awesome "^4.7.0"
+    highlight.js "^9.13.1"
+    lodash "^4.17.11"
+    markdown-it "^8.4.2"
+    moment "^2.22.2"
+
 "2o3t-ui@^0.0.43":
   version "0.0.43"
   resolved "https://registry.yarnpkg.com/2o3t-ui/-/2o3t-ui-0.0.43.tgz#1128b958768ddd2748555ce8368bc0b2ad4a6cb6"
@@ -62,12 +80,21 @@
     cheerio "^1.0.0-rc.2"
     vue-js-modal "^1.3.26"
 
-"2o3t-ui@^0.0.59":
-  version "0.0.59"
-  resolved "https://registry.yarnpkg.com/2o3t-ui/-/2o3t-ui-0.0.59.tgz#4c87bc497786c576e9a4cabf3c8ab3cf7b4ba618"
+"2o3t-ui@^0.0.61":
+  version "0.0.61"
+  resolved "https://registry.yarnpkg.com/2o3t-ui/-/2o3t-ui-0.0.61.tgz#bdbc246f63749e4d3c08e2bdc70660ceb9da112f"
   dependencies:
     "2o3t-css-colors" "^0.0.18"
     "2o3t-icon-font" "^0.0.12"
+    cheerio "^1.0.0-rc.2"
+    vue-js-modal "^1.3.26"
+
+"2o3t-ui@^0.0.63":
+  version "0.0.63"
+  resolved "https://registry.yarnpkg.com/2o3t-ui/-/2o3t-ui-0.0.63.tgz#fc2835d6a6dd5c4949519d55c829ab74275fd401"
+  dependencies:
+    "2o3t-css-colors" "^0.0.19"
+    "2o3t-icon-font" "^0.0.15"
     cheerio "^1.0.0-rc.2"
     vue-js-modal "^1.3.26"
 
@@ -7882,8 +7909,6 @@ ssri@^5.2.4:
 ssri@^6.0.0, ssri@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  dependencies:
-    figgy-pudding "^3.5.1"
 
 stable@~0.1.6:
   version "0.1.8"
@@ -8280,11 +8305,6 @@ to-regex-range@^2.1.0:
 to-regex@^3.0.1, to-regex@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/to-regex/-/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
-  dependencies:
-    define-property "^2.0.2"
-    extend-shallow "^3.0.2"
-    regex-not "^1.0.2"
-    safe-regex "^1.1.0"
 
 topo@3.x.x:
   version "3.0.3"

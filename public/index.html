@@ -3,7 +3,7 @@
   <head>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
     <meta name="description" content="2O3T出品字体图标库, 帮助你快速开发应用">
     <meta name="keywords" content="2O3T,Android,移动开发,手机APP,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek">
@@ -20,7 +20,15 @@
     <noscript>
       <strong>We're sorry but 2o3t-IconFont doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+        <link href="<%= BASE_URL %>loading/style.css" rel="stylesheet">
+        <div class="zyao89-site-loading-mask">
+            <div class="zyao89-site-loading">
+                <div id="zyao89-loading-text">2O3T - 二圆三土</div>
+            </div>
+        </div>
+        <script src="<%= BASE_URL %>loading/index.js"></script>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>

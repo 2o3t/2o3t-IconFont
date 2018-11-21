@@ -1,0 +1,24 @@
+{
+    "exclude": ["node_modules", "dist"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "esnext",
+        "strict": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "paths": {
+            "@/*": ["./src/*"],
+            "@config/*": ["./config/*"],
+            "@router/*": ["./src/router/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@views/*": ["./src/views/*"],
+            "@components/*": ["./src/components/*"],
+            "@designs/*": ["./src/designs/*"],
+            "@libs/*": ["./libs/*"],
+            "@data/*": ["./src/data/*"],
+        }
+    }
+}

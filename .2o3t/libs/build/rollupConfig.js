@@ -42,7 +42,7 @@ export default function (opts) {
         output: {
             // dir: path.resolve(process.cwd(), `./${DIST}`),
             // format: 'esm', // umd, esm
-            file: path.resolve(root, `../${dist}/index.js`),
+            file: path.resolve(root, `../${dist}/${name}.${format}.min.js`),
             format: format, // umd, esm
             name: name, // 打包后的全局变量，如浏览器端 window.ReactRedux
             globals: globals,
@@ -63,7 +63,7 @@ export default function (opts) {
             // 新增的postcss
             postcss({
                 plugins: [autoprefixer, cssnano],
-                extract: `${dist}/styles.css`, // 输出路径
+                extract: `${dist}/${name}.css`, // 输出路径
             }),
             resolve({
                 module: true, // ES6模块尽可能使用 ‘module’字段

@@ -1,6 +1,6 @@
 <template>
     <div :class="$style.root">
-        <ot-loading type="push" size="big" label="2O3T Loading"></ot-loading>
+        <ot-loading :class="$style.loading" type="push" size="big" label="2O3T Loading"></ot-loading>
     </div>
 </template>
 
@@ -19,6 +19,11 @@ export default {
     bottom: 0;
     background-color: rgba(255, 255, 255, .6);
     margin: auto;
+
+    .loading {
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 </style>
 
