@@ -80,5 +80,12 @@ dist
 # IDE
 .idea
 
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
 # 2o3t
 /webs

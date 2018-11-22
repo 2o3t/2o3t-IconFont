@@ -1,6 +1,6 @@
 {
     "name": "2o3t-icon-font",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "description": "[Library] 2O3T-Icon-Font",
     "author": "zyao89 <zyao89@gmail.com>",
     "scripts": {
@@ -54,7 +54,7 @@
         "vue": "^2.5.17",
         "vue-router": "^3.0.1",
         "vue-template-compiler": "^2.5.17",
-        "2o3t-icon-font": "^0.0.15"
+        "2o3t-icon-font": "^0.0.16"
     },
     "eslintConfig": {
         "root": true,
