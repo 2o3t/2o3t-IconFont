@@ -1,6 +1,6 @@
 {
     "name": "2o3t-icon-font",
-    "version": "0.0.16",
+    "version": "0.0.18",
     "description": "[Library] 2O3T-Icon-Font",
     "author": "zyao89 <zyao89@gmail.com>",
     "scripts": {
@@ -18,8 +18,8 @@
         "dist/**/*"
     ],
     "dependencies": {
-        "2o3t-css-colors": "^0.0.19",
-        "2o3t-ui": "^0.0.63",
+        "2o3t-css-colors": "^0.0.21",
+        "2o3t-ui": "^0.0.71",
         "lodash": "^4.17.11",
         "highlight.js": "^9.13.1",
         "moment": "^2.22.2",
@@ -54,7 +54,7 @@
         "vue": "^2.5.17",
         "vue-router": "^3.0.1",
         "vue-template-compiler": "^2.5.17",
-        "2o3t-icon-font": "^0.0.16"
+        "2o3t-icon-font": "^0.0.18"
     },
     "eslintConfig": {
         "root": true,
