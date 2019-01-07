@@ -48,6 +48,7 @@ module.exports = function(fileNames, root) {
                 .removeAttr('fill');
 
             const viewBox = $svg.attr('viewBox') || '';
+            const sizeNums = viewBox.split(' ');
 
             return {
                 id: UUID.v4(),
@@ -55,6 +56,10 @@ module.exports = function(fileNames, root) {
                 group: name,
                 viewBox,
                 svg: $svg.html(),
+                x: sizeNums[0] || 0,
+                y: sizeNums[1] || 0,
+                width: sizeNums[2] || 1024,
+                height: sizeNums[3] || 1024,
             };
         });
 
