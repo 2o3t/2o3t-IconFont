@@ -1,1 +1,1 @@
-[{"name":"fa-brands-icons","api":"/api/fa-brands-icons.json"},{"name":"fa-regular-icons","api":"/api/fa-regular-icons.json"},{"name":"fa-solid-icons","api":"/api/fa-solid-icons.json"},{"name":"ot-icons","api":"/api/ot-icons.json"}]
+[{"alias":"Ot","name":"ot-icons","api":"/api/ot-icons.json"},{"alias":"Fa Solid","name":"fa-solid-icons","api":"/api/fa-solid-icons.json"},{"alias":"Fa Regular","name":"fa-regular-icons","api":"/api/fa-regular-icons.json"},{"alias":"Fa Brands","name":"fa-brands-icons","api":"/api/fa-brands-icons.json"}]

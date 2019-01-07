@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const UUID = require('uuid');
 const cheerio = require('cheerio');
+const { titleCase } = require('change-case');
 
 /*
 <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
@@ -22,6 +23,7 @@ module.exports = function(fileNames, root) {
 
     fileNames.forEach(name => {
         apiList.push({
+            alias: titleCase(name.replace(/-icons$/ig, '')),
             name,
             api: `/api/${name}.json`,
         });
@@ -40,12 +42,18 @@ module.exports = function(fileNames, root) {
 
             $svg.find('path')
                 .removeAttr('id')
-                .removeAttr('p-id');
+                .removeAttr('p-id')
+                .removeAttr('class')
+                .removeAttr('transform')
+                .removeAttr('fill');
+
+            const viewBox = $svg.attr('viewBox') || '';
 
             return {
                 id: UUID.v4(),
                 name: svgName.replace(/\.svg$/ig, ''),
                 group: name,
+                viewBox,
                 svg: $svg.html(),
             };
         });
@@ -60,5 +68,12 @@ module.exports = function(fileNames, root) {
         fs.writeFileSync(path.join(apiRoot, `${name}.json`), JSON.stringify(result));
     });
 
-    fs.writeFileSync(path.join(apiRoot, 'list.json'), JSON.stringify(apiList));
+    // 排序
+    const resultApiList = apiList.sort((a, b) => {
+        if (/^fa-/ig.test(a.name)) {
+            return 1;
+        }
+        return a.name - b.name;
+    });
+    fs.writeFileSync(path.join(apiRoot, 'list.json'), JSON.stringify(resultApiList));
 };
