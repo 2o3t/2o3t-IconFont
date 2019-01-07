@@ -60,7 +60,7 @@ module.exports = function(fileNames, root) {
 
         const result = {
             name,
-            prefix: '<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024"><g><rect width="1024" height="1024" opacity="0"></rect>',
+            prefix: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><g><rect opacity="0"></rect>',
             suffix: '</g></svg>',
             icons,
         };
