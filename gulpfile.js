@@ -17,6 +17,9 @@ const fileNames = fs.readdirSync(ROOT).filter(name => {
 });
 
 console.log(fileNames);
+// create api
+const creatApi = require('./libs/createApi');
+creatApi(fileNames, ROOT);
 
 fileNames.forEach(name => {
     const cssClass = `font-${name.replace(/-icons$/i, '')}`;
