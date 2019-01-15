@@ -84,9 +84,9 @@
     markdown-it "^8.4.2"
     moment "^2.22.2"
 
-"2o3t-icon-font@^0.0.22":
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/2o3t-icon-font/-/2o3t-icon-font-0.0.22.tgz#8ed3050903aa25a86aba1fb2967d77825d463f34"
+"2o3t-icon-font@^0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/2o3t-icon-font/-/2o3t-icon-font-0.0.23.tgz#450205eb34eec3b226f8e6bfbabed0d04b52502f"
   dependencies:
     "2o3t-css-colors" "^0.0.21"
     "2o3t-ui" "^0.0.71"
