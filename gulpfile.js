@@ -49,7 +49,7 @@ fileNames.forEach(name => {
             }))
             .on('glyphs', function(glyphs, options) {
                 // CSS templating, e.g.
-                console.log(glyphs, options);
+                // console.log(glyphs, options);
             })
             .pipe(gulp.dest(`dist/${dist}/`));
     });
