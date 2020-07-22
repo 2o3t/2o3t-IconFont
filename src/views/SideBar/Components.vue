@@ -11,15 +11,8 @@
 <script>
 import modules from '@components';
 import createRouters from '@router/createRouters';
+import { MenuMap as KEY_MAP } from '@libs/config.js';
 const routers = createRouters(modules);
-const KEY_MAP = {
-    0: 'DEFAULT',
-    1: 'Introduction',
-    2: 'Basic',
-    3: 'General',
-    8: 'Font Awesome',
-
-};
 export default {
     name: 'side-bar-pager',
     data() {

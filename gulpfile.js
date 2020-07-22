@@ -21,6 +21,10 @@ console.log(fileNames);
 const creatApi = require('./libs/createApi');
 creatApi(fileNames, ROOT);
 
+// create Comps
+const createDocs = require('./libs/createDocs');
+createDocs(fileNames, ROOT);
+
 fileNames.forEach(name => {
     const cssClass = `font-${name.replace(/-icons$/i, '')}`;
     const fontName = `2o3t-icon-font-${cssClass}`;

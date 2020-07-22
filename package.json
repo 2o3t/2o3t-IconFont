@@ -1,6 +1,6 @@
 {
     "name": "2o3t-icon-font",
-    "version": "0.0.23",
+    "version": "0.0.26",
     "description": "[Library] 2O3T-Icon-Font",
     "author": "zyao89 <zyao89@gmail.com>",
     "scripts": {
@@ -29,7 +29,7 @@
         "moment": "^2.22.2"
     },
     "devDependencies": {
-        "2o3t-icon-font": "^0.0.23",
+        "2o3t-icon-font": "^0.0.26",
         "@vue/cli-plugin-babel": "^3.0.4",
         "@vue/cli-plugin-eslint": "^3.0.4",
         "@vue/cli-service": "^3.0.4",

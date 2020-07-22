@@ -52,6 +52,7 @@ const vueConfig = {
         const alias = resolve.alias || {};
         Object.assign(config.resolve, { // 开发生产共同配置
             alias: Object.assign(alias, {
+                '@font': path.resolve(__dirname, './assets'),
                 '@': path.resolve(__dirname, './src'),
                 '@data': path.resolve(__dirname, './src/data'),
                 '@router': path.resolve(__dirname, './src/router'),

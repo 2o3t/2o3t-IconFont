@@ -17,4 +17,3 @@ lib: 库名称.
 <ot-icon icon="angry" lib="font-fa-regular"></ot-icon>
 <!-- <i class="font-ot font-ot-logo"></i> -->
 ```
-
