@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="2o3t-icon-font-font-md-toggle" horiz-adv-x="48">
+    <font-face font-family="2o3t-icon-font-font-md-toggle"
+      units-per-em="48" ascent="48"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="check_box"
+      unicode="&#xE001;"
+      horiz-adv-x="48" d="M38 42H10C7.79 42 6 40.21 6 38V10C6 7.79 7.79 6 10 6H38C40.21 6 42 7.79 42 10V38C42 40.21 40.21 42 38 42zM20 14L10 24L12.83 26.83L20 19.66L35.17 34.83L38 32L20 14z" />
+    <glyph glyph-name="check_box_outline_blank"
+      unicode="&#xE002;"
+      horiz-adv-x="48" d="M38 38V10H10V38H38M38 42H10C7.79 42 6 40.21 6 38V10C6 7.79 7.79 6 10 6H38C40.21 6 42 7.79 42 10V38C42 40.21 40.21 42 38 42z" />
+    <glyph glyph-name="indeterminate_check_box"
+      unicode="&#xE003;"
+      horiz-adv-x="48" d="M38 42H10C7.8 42 6 40.2 6 38V10C6 7.8 7.8 6 10 6H38C40.2 6 42 7.8 42 10V38C42 40.2 40.2 42 38 42zM34 22H14V26H34V22z" />
+    <glyph glyph-name="radio_button_checked"
+      unicode="&#xE004;"
+      horiz-adv-x="48" d="M24 34C18.48 34 14 29.52 14 24S18.48 14 24 14S34 18.48 34 24S29.52 34 24 34zM24 44C12.95 44 4 35.05 4 24S12.95 4 24 4S44 12.95 44 24S35.05 44 24 44zM24 8C15.16 8 8 15.16 8 24S15.16 40 24 40S40 32.84 40 24S32.84 8 24 8z" />
+    <glyph glyph-name="radio_button_unchecked"
+      unicode="&#xE005;"
+      horiz-adv-x="48" d="M24 44C12.95 44 4 35.05 4 24S12.95 4 24 4S44 12.95 44 24S35.05 44 24 44zM24 8C15.16 8 8 15.16 8 24S15.16 40 24 40S40 32.84 40 24S32.84 8 24 8z" />
+    <glyph glyph-name="star"
+      unicode="&#xE006;"
+      horiz-adv-x="48" d="M24 13.46L36.36 6L33.08 20.06L44 29.52L29.62 30.74L24 44L18.38 30.74L4 29.52L14.92 20.06L11.64 6z" />
+    <glyph glyph-name="star_border"
+      unicode="&#xE007;"
+      horiz-adv-x="48" d="M44 29.52L29.62 30.76L24 44L18.38 30.74L4 29.52L14.92 20.06L11.64 6L24 13.46L36.36 6L33.1 20.06L44 29.52zM24 17.2L16.48 12.66L18.48 21.22L11.84 26.98L20.6 27.74L24 35.8L27.42 27.72L36.18 26.96L29.54 21.2L31.54 12.64L24 17.2z" />
+    <glyph glyph-name="star_half"
+      unicode="&#xE008;"
+      horiz-adv-x="48" d="M44 29.52L29.62 30.76L24 44L18.38 30.74L4 29.52L14.92 20.06L11.64 6L24 13.46L36.36 6L33.1 20.06L44 29.52zM24 17.2V35.8L27.42 27.72L36.18 26.96L29.54 21.2L31.54 12.64L24 17.2z" />
+  </font>
+</defs>
+</svg>

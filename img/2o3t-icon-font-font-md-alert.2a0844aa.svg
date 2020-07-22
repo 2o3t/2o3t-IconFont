@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="2o3t-icon-font-font-md-alert" horiz-adv-x="48">
+    <font-face font-family="2o3t-icon-font-font-md-alert"
+      units-per-em="48" ascent="48"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="add_alert"
+      unicode="&#xE001;"
+      horiz-adv-x="48" d="M20.02 6.98C20.02 4.78 21.8 3 24 3S27.98 4.78 27.98 6.98H20.02zM37.76 15.36V27C37.76 33.5 33.26 38.94 27.18 40.38V41.82C27.18 43.58 25.76 45 24 45S20.82 43.58 20.82 41.82V40.38C14.74 38.94 10.24 33.5 10.24 27V15.36L6 11.12V9H42V11.12L37.76 15.36zM32 22.99H26V16.99H22V22.99H16V27H22V33H26V27H32V22.99z" />
+    <glyph glyph-name="error"
+      unicode="&#xE002;"
+      horiz-adv-x="48" d="M24 44C12.96 44 4 35.05 4 24S12.96 4 24 4S44 12.95 44 24S35.04 44 24 44zM26 14H22V18H26V14zM26 22H22V34H26V22z" />
+    <glyph glyph-name="error_outline"
+      unicode="&#xE003;"
+      horiz-adv-x="48" d="M22 18H26V14H22zM22 34H26V22H22zM23.99 44C12.94 44 4 35.05 4 24S12.94 4 23.99 4S44 12.95 44 24S35.04 44 23.99 44zM24 8C15.16 8 8 15.16 8 24S15.16 40 24 40S40 32.84 40 24S32.84 8 24 8z" />
+    <glyph glyph-name="warning"
+      unicode="&#xE004;"
+      horiz-adv-x="48" d="M2 6H46L24 44L2 6zM26 12H22V16H26V12zM26 20H22V28H26V20z" />
+  </font>
+</defs>
+</svg>
