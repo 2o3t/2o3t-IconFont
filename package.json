@@ -52,7 +52,7 @@
         "gulp-clean": "^0.4.0",
         "gulp-iconfont": "^10.0.2",
         "gulp-iconfont-css": "^2.3.0",
-        "node-sass": "^4.9.3",
+        "node-sass": "^7.0.0",
         "sass-loader": "^7.1.0",
         "uuid": "^3.3.2",
         "vue": "^2.5.17",
